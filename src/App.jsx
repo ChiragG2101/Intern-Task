@@ -5,8 +5,8 @@ import UserTable from './components/UserTable'
 function App() {
   return (
     <div className='App'>
-      <UserTable />
       <AddUser />
+      <UserTable />
     </div>
   )
 }
